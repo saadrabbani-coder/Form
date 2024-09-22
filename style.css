@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.background {
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.form-container {
+    background-color: white;
+    border: 5px solid white;
+    padding: 20px;
+    width: 800px;
+    box-sizing: border-box;
+    text-align: center;
+    position: relative;
+}
+
+.form-container img {
+    width: 800px;
+    height: 220px;
+    display: block;
+    margin-top: -25px;
+    margin-left:-24px ;
+}
+    
+
+ 
+
+.form-container h2 {
+    margin: 20px 0;
+}
+
+.form-container label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.form-container .underline {
+    position: relative;
+    border-bottom: 2px solid black;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.form-container .underline input,
+.form-container .underline select {
+    border: none;
+    outline: none;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 16px;
+    background-color: transparent;
+}
+
+.form-container .underline .icon {
+    position: absolute;
+    right: 10px;
+    pointer-events: none;
+}
+
+
+
+.full-width {
+    width: 100%;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.column {
+    width: 48%;
+    
+    
+}
+
+.form-container input[type="submit"] {
+    background-color: green;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    width: 50%;
+}
